@@ -2,7 +2,7 @@ export const CVData = {
   personalData: {
     name: "Kapil Gupta",
     title: "Senior Software Developer",
-    image: "react-cv/example/src/circular_small.png",
+    image: "example/src/circular_small.png",
     contacts: [
       { type: "email", value: "john@example.com" },
       { type: "phone", value: "+00 (123) 456 78 90" },
