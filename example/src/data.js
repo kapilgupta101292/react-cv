@@ -5,13 +5,11 @@ export const CVData = {
     image:
       "https://raw.githubusercontent.com/kapilgupta101292/react-cv/master/example/src/circular_small.png",
     contacts: [
-      { type: "email", value: "john@example.com" },
-      { type: "phone", value: "+00 (123) 456 78 90" },
-      { type: "location", value: "New York" },
-      { type: "website", value: "example.com" },
-      { type: "linkedin", value: "linkedin.com/in/notexists" },
-      { type: "twitter", value: "twitter.com/404" },
-      { type: "github", value: "github.com/404" }
+      { type: "email", value: "kapilguptansit@gmail.com" },
+      { type: "phone", value: "+919686262560" },
+      { type: "location", value: "New Delhi" },
+      { type: "linkedin", value: "linkedin.com/in/kapilguptansit" },
+      { type: "github", value: "github.com/kapilgupta101292" }
     ]
   },
   sections: [
@@ -19,7 +17,7 @@ export const CVData = {
       type: "text",
       title: "Career Profile",
       content:
-        "When I was child, I always want to be a developer. I think I am now. Culpa proident ad officia minim Lorem sint excepteur irure culpa nisi aliquip nostrud.Laborum voluptate nostrud fugiat occaecat proident veniam excepteur pariatur amet ex sit.Anim aliquip do in commodo adipisicing.Nulla adipisicing nisi enim ullamco sunt veniam.Ullamco labore sunt Lorem veniam id et Lorem magna eiusmod aute. Aliquip minim est consectetur anim mollit aliqua ex elit do et nulla do. Cupidatat ad sunt cillum sint consectetur sunt cillum eiusmod ad esse aliqua. Aute anim elit amet in duis aute ipsum deserunt qui deserunt officia excepteur veniam. Et laboris nostrud est ipsum nulla fugiat deserunt magna velit irure. Ullamco duis ut magna ea tempor enim in ipsum.",
+        "To achieve high carrier growth through a continuous learning process and keep myself dynamic, visionary and competitive with the changing scenario of the world.",
       icon: "usertie"
     },
     {
