@@ -5,10 +5,12 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "interweave": "^12.2.1",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-cv": "link:..",
     "react-dom": "^16.4.1",
+    "react-render-html": "^0.6.0",
     "react-scripts": "^1.1.4"
   },
   "scripts": {

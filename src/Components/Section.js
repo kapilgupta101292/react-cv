@@ -14,9 +14,10 @@ import {
   faLanguage,
   faCubes,
   faExclamation,
-  faUserTie
+  faUserTie,
+  faGlobe
 } from "@fortawesome/free-solid-svg-icons";
-import ReactHtmlParser from "react-html-parser";
+import { Markup } from "interweave";
 
 const predefinedIcons = {
   graduation: faGraduationCap,
@@ -27,7 +28,8 @@ const predefinedIcons = {
   rocket: faRocket,
   language: faLanguage,
   cubes: faCubes,
-  usertie: faUserTie
+  usertie: faUserTie,
+  globe: faGlobe
 };
 export default class Section extends React.Component {
   static propTypes = {
@@ -71,9 +73,9 @@ export default class Section extends React.Component {
             {this.props.content && (
               <div className={mergeClassNames(Styles.sectionContent)}>
                 {typeof this.props.content === "string" ? (
-                  <p>{ReactHtmlParser(this.props.content)}</p>
+                  <p>{<Markup content={this.props.content} />}</p>
                 ) : (
-                  ReactHtmlParser(this.props.content)
+                  <Markup content={this.props.content} />
                 )}
               </div>
             )}

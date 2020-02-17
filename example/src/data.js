@@ -1,7 +1,7 @@
 export const CVData = {
   personalData: {
     name: "Kapil Gupta",
-    title: "Senior Software Developer",
+    title: "Senior Software Engineer",
     image:
       "https://raw.githubusercontent.com/kapilgupta101292/react-cv/master/example/src/circular_small.png",
     contacts: [
@@ -15,88 +15,132 @@ export const CVData = {
   sections: [
     {
       type: "text",
-      title: "Career Profile",
-      content: `<p>To achieve high carrier growth through a continuous learning process and keep myself dynamic, visionary and competitive with the changing scenario of the world.
-        <ol><li>ListItem1</li><ol>
-        </p>`,
+      title: "Objective",
+      content:
+        "To achieve high career growth through a continuous learning process and keep myself dynamic, visionary and competitive with the changing dynamics of tech industry.",
+      icon: "globe"
+    },
+    {
+      type: "text",
+      title: "Professional Synopsis",
+      content: `5+ Years of extensive professional software development experience as Software Engineer in medium
+to large sized projects in the area of Design, Development and Analysis.
+\n 1) Strong Exprerience in developing applications using Spring, Java and SQL.
+\n 2) Strong knowledge of Object-Oriented methodologies, analysis and Design, Data Structures & Algorithm.
+\n 3) Sound knowledge in Multithreading, Oops, Design Pattern.
+\n 4) Ability to prioritize and schedule tasks and solve complex problems applying systematic approach.
+\n 5) Positive outlook and learning attitude, eager to learn and work with latest and best technologies.`,
       icon: "usertie"
     },
+
     {
       type: "common-list",
       title: "Education",
       icon: "graduation",
       items: [
         {
-          title: "Computer Engineering (BS)",
-          authority: "University",
-          authorityWebSite: "https://sample.edu",
-          rightSide: "2013 - 2017"
-        },
-        {
-          title: "Some Department (PHD)",
-          authority: "Another University",
-          authorityWebSite: "https://sample.edu",
-          rightSide: "2017 - Present"
+          title: "Electronics and Communication Engineering - B.E(H)",
+          authority:
+            "Netaji Subhas Institute of Technology, Delhi University, New Delhi",
+          authorityWebSite: "http://www.nsit.ac.in/",
+          rightSide: "2010 - 2014"
         }
       ]
     },
     {
       type: "experiences-list",
       title: "Experiences",
-      description: "Optional",
+      description: "",
       icon: "archive",
       items: [
         {
-          title: "Lead Software Developer",
-          company: "Some Company Example INC",
-          description: "I'm working as a lead developer yeeeey!",
-          companyWebSite: "http://somecompanyexample.com",
+          title: "Senior Software Engineer",
+          company: "Sirion Labs Pvt Ltd",
+          description:
+            "Working as a part of API Integrations team, Responsible for third part integrations with the Sirion Application including Login Mechanisms. ",
+          companyWebSite: "https://www.sirionlabs.com",
           companyMeta: "",
-          datesBetween: "2017.10 - Present",
-          descriptionTags: ["Javascript", "React"]
+          datesBetween: "Feb-2019 - Present",
+          descriptionTags: ["Java", "Spring", "Ibatis"]
         },
         {
-          title: "Software Developer",
-          company: "Some Company Example INC",
-          description: "I'm using ReactJS and working as a front-end developer",
-          companyWebSite: "http://somecompanyexample.com",
-          companyMeta: "Little info about company",
-          datesBetween: "2016.8 - 2017.10"
+          title: "Application Developer III",
+          company: "Oracle India Pvt. Ltd.",
+          description: `Worked as part of Projects Portfolio Management(PPM) for Oracle Cloud Applications. Majorly involved in development activities like feature development or enhancement and bug fixing using Java Based framework (ADF) and PL/SQL using a test driven development approach. Worked on various projects from scratch.`,
+          companyWebSite: "https://oracle.com",
+          companyMeta: "Hyderabad",
+          datesBetween: "Oct-2015 - Jan-2019",
+          descriptionTags: ["Java", "ADF", "PL/SQL"]
         },
         {
-          title: "Intern",
-          company: "Some Software Example INC",
-          description: "I was warming up.",
-          companyWebSite: "http://someexamplecompany.com",
-          companyMeta: "SF USA",
-          datesBetween: "2012.06 - 2012.10"
+          title: "Associate Engineer",
+          company: "Qualcomm India Pvt. Ltd.",
+          description: `Worked in IP team, designed and maintained framework to run functional and analysis tests on SRAMs using PERL language. Involved in Memory Compiler Development for 14nm and 28 nm technologies. Implemented and Automated different test procedures for fast and easy analysis of memory circuits.`,
+          companyWebSite: "https://qualcomm.com",
+          companyMeta: "Bangalore",
+          datesBetween: "Jun-2012 - Oct-2015",
+          descriptionTags: ["PERL", "UNIX"]
         }
       ]
     },
     {
       type: "projects-list",
       title: "Projects",
-      description: "Optional",
+      description: "",
       icon: "tasks",
       groups: [
         {
-          sectionHeader: "Company Name",
-          description: "Optional",
+          sectionHeader: "Sirion Labs Pvt. Ltd.",
+          description: "",
           items: [
             {
-              title: "Project",
-              projectUrl: "optional",
-              description: "Optional"
+              title: "AuditLog Service in Golang",
+              projectUrl: "",
+              description:
+                "Designed and developed an AuditLog service to allow admin to audit the tasks done by the users on various entities. Service was created using Golang and elastic as a datasource to allow search capability on certain fields."
             },
             {
-              title: "Project",
-              projectUrl: "optional",
-              description: "Optional"
+              title: "Two Factor Authentication Using Time based OTP",
+              projectUrl: "",
+              description:
+                "Developed the integration for the Two Factor Authentication for the sirion application, adding extra layer of security to the login mechanism. User can enable/ disable the extra layer of authentication."
             },
             {
-              title: "Project",
-              projectUrl: "optional",
-              description: "Optional"
+              title: "Outlook Plugin Integration Service",
+              projectUrl: "",
+              description:
+                "Designed and developed a service to communicate with the Outlook plugin created for the Sirion CLM application for Governance Body Meetings. This plugin allows users to manage governance meetings from the outlook plugin without accesssing the application."
+            },
+            {
+              title: "JWT Integration for Login",
+              projectUrl: "",
+              description:
+                "Part fo the team that integrated JSON Web tokens to allow stateless authentication for Sirion Application. Once the user is logged in, each subsequent request will include the JWT, allowing the user to access resources that are permitted with that token."
+            }
+          ]
+        },
+        {
+          sectionHeader: "Oracle India Pvt. Ltd.",
+          description: "",
+          items: [
+            {
+              title: "File Based Loader for Importing Rates",
+              projectUrl: "",
+              description: `Developed a file based loader which can be used by customer to
+                    import rates data in Oracle Cloud Applications. Coded various validations and business rules in Java, along with
+                    error reporting functionality allowing users to correct the data and import again easily.`
+            },
+            {
+              title: "Rapid Implementation",
+              projectUrl: "",
+              description: `Developed an Excel based solution which can be used by customer to create quick
+                    setup data in Oracle Cloud Applications. This feature is being used to get the new customer up and running with the PPM offering.`
+            },
+            {
+              title: "Rate Overrides PLSQL API",
+              projectUrl: "",
+              description: `Developed a PLSQL based API to create volume data for rate overrides in the
+                   system. It involved handling bulk data and performing business validations on huge volume of data. Worked on query optimization and tuning to achieve optimal performance.`
             }
           ]
         }
@@ -104,26 +148,50 @@ export const CVData = {
     },
     {
       type: "common-list",
-      title: "Conferences & Certificates",
+      title: "Publications & Achievements",
       description: "",
       icon: "comments",
       items: [
         {
-          title: "Some Conferences / 2019",
-          authority: "SomeConf",
-          authorityWebSite: "https://www.someconf.somesome"
+          title: "India Educators’ Conference (TIIEC), 2013",
+          authority: "Texas Instruments",
+          authorityMeta: "Presenter",
+          description: `Designed and developed a device that can be attached to existing electricity meters in our house and logs real time energy usage for the user. It can be used to monitor real time energy usage data and show graphical data to the user.`
         },
         {
-          title: "Some Conferences / 2019",
-          authority: "SomeConf",
-          authorityMeta: "Speaker",
-          authorityWebSite: "https://www.someconf.somesome",
-          rightSide: "test"
+          title: "Oracle Cloud Applications Hackathon, Oct-2017",
+          authority: "Oracle Corporation",
+          authorityMeta: "Winner",
+          description: `created a prototype for Oracle Fusion Applications Assistant to allow the user to use the application in interactive manner with documentation feedback and error handling if user is facing issues while using the application`
         },
         {
-          title: "Some Conferences / 2012",
-          authorityMeta: "Speaker"
+          title: "3 Qualstar Awards 2015",
+          authority: "Qualcomm India Pvt. Ltd.",
+          description: `Awarded Qualstar awards for exceptional performance in ongoing projects.`
+        },
+        {
+          title: "Merit Certificate and Scholarship",
+          authority: "NSIT, Dwarka, New Delhi",
+          description: `Awarded Merit Certificate and tuition fee waiver in all 4years of B.E for outstanding academic performance.`
         }
+      ]
+    },
+    {
+      type: "tag-list",
+      title: "Skills Proficiency",
+      icon: "rocket",
+      items: ["Java", "Spring", "SQL", "Git", "React(Beginner)"]
+    },
+    {
+      type: "tag-list",
+      title: "Hobbies & Interests",
+      icon: "cubes",
+      items: [
+        "Lawn Tennis",
+        "Table Tennis",
+        "Badminton",
+        "Listening to Music",
+        "Swimming"
       ]
     },
     {
@@ -136,22 +204,10 @@ export const CVData = {
           authorityMeta: "Professional"
         },
         {
-          authority: "Spanish",
-          authorityMeta: "Beginner"
+          authority: "Hindi",
+          authorityMeta: "Mother tongue"
         }
       ]
-    },
-    {
-      type: "tag-list",
-      title: "Skills Proficiency",
-      icon: "rocket",
-      items: ["React", "Javascript", "CSS", "SQL", "SomeTech", "CoolTech"]
-    },
-    {
-      type: "tag-list",
-      title: "Hobbies & Interests",
-      icon: "cubes",
-      items: ["Photography", "Poetry"]
     }
   ]
 };
