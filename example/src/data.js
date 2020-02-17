@@ -16,8 +16,9 @@ export const CVData = {
     {
       type: "text",
       title: "Career Profile",
-      content:
-        "To achieve high carrier growth through a continuous learning process and keep myself dynamic, visionary and competitive with the changing scenario of the world.",
+      content: `<p>To achieve high carrier growth through a continuous learning process and keep myself dynamic, visionary and competitive with the changing scenario of the world.
+        <ol><li>ListItem1</li><ol>
+        </p>`,
       icon: "usertie"
     },
     {
