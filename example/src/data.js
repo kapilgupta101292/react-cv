@@ -60,7 +60,7 @@ to large sized projects in the area of Design, Development and Analysis.
           companyWebSite: "https://www.sirionlabs.com",
           companyMeta: "",
           datesBetween: "Feb-2019 - Present",
-          descriptionTags: ["Java", "Spring", "Ibatis"]
+          descriptionTags: ["Java", "Spring", "Golang", "Nodejs", "Ibatis"]
         },
         {
           title: "Application Developer III",
