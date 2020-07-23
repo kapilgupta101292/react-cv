@@ -25,9 +25,8 @@ export const CVData = {
       title: "Professional Synopsis",
       content: `5+ Years of extensive professional software development experience as Software Engineer in medium
 to large sized projects in the area of Design, Development and Analysis.
-\n 1) Strong Exprerience in developing applications using Spring, Java and SQL.
+\n 1) Strong Exprerience in developing applications using Spring, Java, Golang, Nodejs and SQL.
 \n 2) Strong knowledge of Object-Oriented methodologies, analysis and Design, Data Structures & Algorithm.
-\n 3) Sound knowledge in Multithreading, Oops, Design Pattern.
 \n 4) Ability to prioritize and schedule tasks and solve complex problems applying systematic approach.
 \n 5) Positive outlook and learning attitude, eager to learn and work with latest and best technologies.`,
       icon: "usertie"
@@ -93,6 +92,12 @@ to large sized projects in the area of Design, Development and Analysis.
           sectionHeader: "Sirion Labs Pvt. Ltd.",
           description: "",
           items: [
+            {
+              title: "Microsoft Teams App add-in",
+              projectUrl: "",
+              description:
+                "Created a Microsoft Teams add-in, which connects to Nodejs based backend to communicate with the regisered users. This feature will be used to send notifications and reminders to the users regarding upcoming tasks and meetings."
+            },
             {
               title: "AuditLog Service in Golang",
               projectUrl: "",
@@ -180,7 +185,15 @@ to large sized projects in the area of Design, Development and Analysis.
       type: "tag-list",
       title: "Skills Proficiency",
       icon: "rocket",
-      items: ["Java", "Spring", "SQL", "Git", "React(Beginner)"]
+      items: [
+        "Java",
+        "Spring",
+        "SQL",
+        "Git",
+        "Golang",
+        "Nodejs",
+        "React(Beginner)"
+      ]
     },
     {
       type: "tag-list",
